@@ -7,7 +7,7 @@ def bisiesto (allo):
     if a == 0 or b == 0 or c == 0 :
       print ('El año es bisiesto.')
     else: 
-      print ('El año es bisiesto.')
+      print ('El año no es bisiesto.')
 
 allo = input('Ingrese el número ') 
 allo = int(allo)         
