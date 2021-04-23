@@ -9,7 +9,7 @@ def bisiesto (allo):
     else: 
       print ('El año no es bisiesto.')
 
-allo = input('Ingrese el número ') 
+allo = input('Ingrese el año ') 
 allo = int(allo)         
 bisiesto(allo)
   
