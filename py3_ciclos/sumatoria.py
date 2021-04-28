@@ -15,6 +15,6 @@ def  sumatoria (A,B,C):
   print('\n')
 
 print('\n')
-print('A continuacion verá el resultado de la sumatoria propuesta, siendo A =', A, ' B =', B,'y C = ', C )
+print('A continuacion verá el resultado de la sumatoria propuesta, siendo A =', A, ' B =', B,'y C =', C )
 print('\n')
 sumatoria(A,B,C)
