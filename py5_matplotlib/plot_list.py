@@ -1,10 +1,23 @@
+import matplotlib.pyplot as plt
 A = []
 
 def llenar_A (num):
-  while  
-    
+  
+  while num != 1:
+    A.append(num)
+    print (num)
+    par=num%2
+    if par!=0:
+      num=num*3
+      num=num+1
+    num=num//2
+  return 0
 
-print('Digite el primer número de la lista')
-num = input ('Escriba el número del que quiere ver la tabla ')
+def llenar_plot (A):  
+  plt.plot(A)
+  plt.show()
+
+num = input ('Digite el primer número de la lista')
 num=int(num)
 llenar_A(num)
+llenar_plot(A)
